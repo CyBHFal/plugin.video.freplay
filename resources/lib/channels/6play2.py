@@ -159,7 +159,7 @@ def list_videos(channel, id):
         videoId = str(video['id'])
 
         title = video['title'].encode('utf-8')
-        duration = video['clips'][0]['duration']/60
+        duration = video['clips'][0]['duration']
         description = video['description'].encode('utf-8')
         try:
             dateDiffusion = video['clips'][0]['product']['last_diffusion']
