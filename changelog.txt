@@ -1,3 +1,7 @@
+Version 0.6.16~cyb3
+  - Fixed 6play
+     - DRM (thanks Electrocut)
+
 Version 0.6.16~cyb2
   - Fixed 6play
      - Wrong duration
